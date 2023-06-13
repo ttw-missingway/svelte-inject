@@ -3,10 +3,12 @@
 
     const increment = () => {
         count++;
+        console.log("incrementing");
     }
 
     const decrement = () => {
         count--;
+        console.log("decrementing");
     }
 </script>
 
